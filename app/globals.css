@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @font-face {
+    font-family: 'MSG';
+    src: url('/fonts/MSG.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'EVA';
+    src: url('/fonts/EVA.woff') format('woff');
+  }
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --text-sm: 0.95rem; /* Adjusted text-sm size */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}

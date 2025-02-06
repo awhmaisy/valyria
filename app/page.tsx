@@ -1,4 +1,4 @@
-// are you reading the repo? well, helloooo darling <3
+// are you reading the repo? well, helloooo darling! <3
 
 "use client";
 

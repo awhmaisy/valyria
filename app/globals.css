@@ -30,3 +30,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+* {
+  cursor: url('/cursor.cur') 16 16, auto;
+}
+

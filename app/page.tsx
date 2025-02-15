@@ -25,6 +25,9 @@ export default function Home() {
             <div>DOMAINS .................... AE, AV, AI, CT, OH</div>
             <div>SHORT-TITLE ................ M12-S-5166-SL</div>
             <br /><br />
+            <div style={{textDecoration: 'underline'}}>RETAIL UNDER CONSTRUCTION</div>
+
+            {/*
             <div>100-PC COLLECTION, UNITS ARE ONE-SIZE AND DISTRESSED INDIVIDUALLY - NO TWO ARE THE SAME. 100% COTTON AND 100% MADE IN THE USA.</div>
             <br /><br />
             <Image
@@ -47,7 +50,9 @@ export default function Home() {
               <div className="border border-white px-4 py-2">OPTIC-HOODIE</div>
               <div className="border border-white px-4 py-2">$𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃</div>
             </div>
+               */}
           </div>
+   
         </main>
       </div>
     </>

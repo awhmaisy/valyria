@@ -18,7 +18,7 @@ export default function Home() {
           <p className="mt-10 font-[family-name:EVA] text-2xl mb-4 max-w-lg" style={{ transform: 'scaleY(2)' }}>
             MACH-12
           </p>
-          <p>High-impact, American-made brand emblems for technical companies. Please direct all inquiries to <a href="mailto:m@mach012.com">m@mach012.com</a>. We do retail (below) and merchandise upon request.</p>
+          <p>High-impact, American-made brand emblems for technical companies. Please direct all inquiries to <a href="mailto:m@mach012.com">m@mach012.com</a>. We do retail (public viewing soon) and merchandise upon request.</p>
           <div className="font-[family-name:MSG] text-sm mt-10 max-w-lg">
             <div>DECLASSIFY ON .............. SCI, SAP</div>
             <div>DOP ........................ 2025/01/27</div>

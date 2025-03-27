@@ -9,23 +9,25 @@ export default function Home() {
     <>
       <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-20 gap-4 sm:p-12 font-[family-name:MSG] max-w-lg mx-auto">
         <main className="flex flex-col row-start-2 items-center sm:items-start text-sm">
-          <Image
-            src="/mach-poster2.png"
-            alt="PM Shirt"
-            width={400}
-            height={400}
-          />
+          <div className="w-full flex justify-center">
+            <Image
+              src="/mach-poster2.png"
+              alt="PM Shirt"
+              width={400}
+              height={400}
+            />
+          </div>
           <p className="mt-10 font-[family-name:EVA] text-2xl mb-4 max-w-lg" style={{ transform: 'scaleY(2)' }}>
             MACH-12
           </p>
-          <p>High-impact, American-made brand emblems for technical companies. Please direct all inquiries to <a href="mailto:m@mach012.com">m@mach012.com</a>. We do retail (public viewing soon) and merchandise upon request.</p>
+          <p>American-made garments and brand emblems for technical companies. Please forward all inquiries to <a href="mailto:m@mach012.com">m@mach012.com</a>. We craft aetheric garments upon request.</p>
           <div className="font-[family-name:MSG] text-sm mt-10 max-w-lg">
             <div>DECLASSIFY ON .............. SCI, SAP</div>
-            <div>DOP ........................ 2025/01/27</div>
+            <div>DOP ........................ 2025/04</div>
             <div>DOMAINS .................... AE, AV, AI, CT, OH</div>
             <div>SHORT-TITLE ................ M12-S-5166-SL</div>
             <br /><br />
-            <div style={{textDecoration: 'underline'}}>RETAIL UNDER CONSTRUCTION</div>
+
 
             {/*
             <div>100-PC COLLECTION, UNITS ARE ONE-SIZE AND DISTRESSED INDIVIDUALLY - NO TWO ARE THE SAME. 100% COTTON AND 100% MADE IN THE USA.</div>
@@ -53,6 +55,14 @@ export default function Home() {
                */}
           </div>
    
+          <div className="flex gap-4 justify-center w-full">
+          <a href="https://pm-c2.com" className="w-full">
+            <button className="border-[0.5px] border-white px-4 py-2 w-full">P.A. EMBLEMS (SOON)</button>
+          </a>
+          <a href="/PM-ONE-PAGE.pdf" className="w-full">
+            <button className="border-[0.5px] border-white px-4 py-2 w-full">CLIENT ONE-PAGER</button>
+          </a>
+        </div>
         </main>
       </div>
     </>

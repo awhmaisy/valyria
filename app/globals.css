@@ -12,6 +12,11 @@
     src: url('/fonts/EVA.woff') format('woff');
   }
 
+  @font-face {
+    font-family: 'hypermarket';
+    src: url('/fonts/hypermarket.woff2') format('woff2');
+  }
+
 :root {
   --background: #ffffff;
   --foreground: #000000;
